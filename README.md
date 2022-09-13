@@ -1,44 +1,9 @@
-Este repositorio está destinado aos exercicios de aprendizado da Trybe
+# Neste repositorio estarão todas os exercicios propostos durante o curso da Trybe.
+# Trybe
 
-Criação e versionamento de git passo a passo:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[SeuNomeAqui](LinkDoSeuLinkedinAqui)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
-1º Criação da pasta onde estara localizao o projeto em questão
-ex:
-    mkdir /home/"usuario"/trybe-exercises/
+_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
+O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-2º inicialização do git dentro da pasta especifica
-ex:
-    cd ~/trybe-exercises
-    git init
-
-3º criação do arquivo README.md
-
-4º versionamento: 
-   a partir desse momento você já está na primeira versão do seu projeto dentro do git main.
-   deste ponto é importante seguir com a criação das branchs para não haver nenhuma quebra do seu projeto
-
-    $ git branch nome
-    //(este comando cria uma nova ramificação do projeto, copiando o projeto original em "uma nova pasta"(uma ramificação do projeto original" assim seu projeto original estara seguro de alterações errada.
-    
-    $ git checkout nome
-    // para mudar o terminal para a ramificação em questão
-    
-    após feitas as alterações e garantindo que está tudo correto dentro do projeto
-    
-    $ git status
-    // verifica todos os arquivos e pastas que foram alterados dentro do ramo em questão
-    
-    $ git add .
-    // manda todas as alterações para a fase de stage
-    ou
-    $ git add nome_do_arquivo_alterado
-    // manda os arquivos alterados para a fase de stage
-    # fase stage te permite certificar de que há algo de errado com o projeto antes de efetivamente alterar a versão a qual está configurando
-    
-    $ git commit -m "texto informativo sobre as alterações feitas"
-    // Este comando atualiza de fato a versão a qual se está configurando
-    
-    deste ponto em diante caso queira efetivar o projeto, basta voltar a pasta main utilizando o comando git checkout e utilizar o comando
-    $ git merge nome_da_versão_alterada
-    para integrar a versão alterada ao projeto principal

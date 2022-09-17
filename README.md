@@ -1,9 +1,16 @@
-# Neste repositorio estarão todas os exercicios propostos durante o curso da Trybe.
-# Trybe
+# Bem vindo! Um prazer te-lo aqui.
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por José Gerddicley Alves Gomes enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório refere-se aos exercicios da [![Trybe](https://www.betrybe.com/static/images/logo-negative-green.svg)](https://www.trybe.com) onde estará todo o meu progresso durante o curso e aprendizado da [![Trybe](https://www.betrybe.com/static/images/logo-negative-green.svg)](https://www.trybe.com)
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
+### Conhecimentos como
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+* Git e Github
+* HTML
+* CSS
+* JavaScript
+* ...
+  
+  Todas as ferramentas que um **_Desenvolvedor Web_** precisa para começar sua carreira de **DEV**
+  ![todopoderoso](https://j.gifs.com/KrVJWw.gif)
 
+# 🚀🚀🚀 #VQV

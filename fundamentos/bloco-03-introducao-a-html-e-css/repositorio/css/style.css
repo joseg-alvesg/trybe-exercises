@@ -6,25 +6,12 @@ body {
 img {
     border-color: white;
     border-radius: 50%;
-    border-color: white;
-}
-#skills-tree {
-    background-color: orange;
-    text-align: initial;
 }
 
-#skills-tree #hard{
-    float: right;
-    text-align: auto;
-}
-#skills-tree {
-    float: right;
-}
-#skills-tree img {
-    float: left;
+h1 {
+    text-align: center;
 }
 
-footer {
-    position: absolute;
-    bottom: 0%;
+p {
+    text-align: center;
 }

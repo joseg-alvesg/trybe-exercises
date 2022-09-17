@@ -1,3 +1,30 @@
-ul {
+body {
+    background-color: #170A1C;
+    color: #C19AB7;
+}
+
+img {
+    border-color: white;
+    border-radius: 50%;
+    border-color: white;
+}
+#skills-tree {
     background-color: orange;
-}s
+    text-align: initial;
+}
+
+#skills-tree #hard{
+    float: right;
+    text-align: auto;
+}
+#skills-tree {
+    float: right;
+}
+#skills-tree img {
+    float: left;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+}

@@ -1,0 +1,8 @@
+h1, p {
+    text-align: center;
+}
+
+ol:hover {
+    background-color: black;
+    color: red;
+}

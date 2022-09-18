@@ -6,3 +6,7 @@ ol:hover {
     background-color: black;
     color: red;
 }
+
+li {
+    list-style: none;
+}

@@ -4,14 +4,34 @@ body {
 
 }
 
-#container {
+.menu-bar {
 
+}
+
+#container {
+    padding-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: blue; */
+    height: 600px;
+}
+
+#container-infos {
+    margin-left: 10%;
+    /* background-color: orange; */
+    width: 80%;
+    text-align: center;
+}
+
+#container-skills {
+    /* background-color: black; */
     width: 100%;
     height: 267px;
     text-align: center;
 }
 
 .skills-tree {
+    /* background-color: orange; */
     display: inline-block;
     height: 267px;
 

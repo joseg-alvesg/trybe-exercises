@@ -17,3 +17,19 @@ if (aritimetica > 20) {
 } else {
   console.log("Valor menor ou igual a 20")
 }
+
+let valoresImpares = [];
+let checker = false;
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] % 2 !== 0) {
+    checker = true;
+    valoresImpares.push(numbers[index]);
+  }
+}
+if (checker == true) {
+  console.log(valoresImpares);
+} else {
+  console.log("nenhum valor ímpar encontrado");
+}
+
+let menorValor = numbers[0];

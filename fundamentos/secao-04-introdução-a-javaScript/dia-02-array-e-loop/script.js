@@ -33,3 +33,19 @@ if (checker == true) {
 }
 
 let menorValor = numbers[0];
+for ( let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] < menorValor) {
+    menorValor = numbers[index];
+  }
+}
+console.log(menorValor);
+
+let oneTo25 = [];
+let divisor = []
+for (let index = 0; index < 25; index += 1){
+  oneTo25.push(index+1)
+  divisor.push(oneTo25[index]/2);
+}
+
+console.log(oneTo25)
+console.log(divisor)

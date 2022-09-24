@@ -13,10 +13,12 @@ console.log(resultado);
 // inversão de palavras
 //=============================================================
 
-let word = 'o rato roeu a roupa do rei de ratos';
-let inversor = [];
+let word = 'O rato roeu a roupa do rei dos';
+let inversor = "";
 
-for (index = 0; index < word.length; index += 1){
-  inversor.unshift(word[index]);
+for (index = word.length-1; index >= 0; index -= 1){
+  inversor += word[index]
 }
-console.log(inversor.join(''));
+// console.log(inversor.join(''));
+console.log(inversor)
+

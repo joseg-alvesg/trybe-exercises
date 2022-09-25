@@ -41,3 +41,22 @@ for (let index = 1; index < array.length; index += 1) {
 }
 console.log(maiorPalavra);
 console.log(menorPalavra);
+
+//=============================================================
+// Maior numero primo entre 2 e 50
+//=============================================================
+
+let maiorPrimo = 0;
+
+for (let numeroatual = 2; numeroatual <= 50; numeroatual += 1) {
+  let ehPrimo = true;
+  for(let divisor = 2; divisor < numeroatual; divisor += 1){
+    if (numeroatual % divisor === 0){
+      ehPrimo = false;
+    }
+  }
+  if (ehPrimo) {
+    maiorPrimo = numeroatual;
+  }
+}
+console.log(maiorPrimo);

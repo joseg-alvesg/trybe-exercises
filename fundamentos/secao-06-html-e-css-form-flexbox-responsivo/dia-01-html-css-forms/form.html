@@ -7,6 +7,56 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <form action="" method="get">
+    <h1>Formulário</h1>
+    <p>A seguir você deverá digitar suas informações para paraticipar do <a href="http://www.trybe.com" target="_blank">TrybeTrip</a></p>
+    
+    <section id="login">
+      <h3>Dados de contato:</h3>
+      <label for="user-name">Nome:
+      <input type='text' name="user-name" id="user-name" placeholder="Digite seu nome completo" required minlength="10" maxlength="50" autocomplete="off">
+      </label>
+      <br>
+      <label for="user-email">Email:
+        <input type="email" name="user-email" id="user-email" placeholder="Digite seu Email" required minlength="10" maxlength="50" autocomplete="off">
+      </label>
+  </section>
+  <section id="ferias">
+    <h3>Tipo de férias preferencial</h3>
+    <input type="radio" name="trip" id="cidade">
+    <label for="cidade">Cidade</label>
+    <br>
+    <input type="radio" name="trip" id="campo">
+    <label for="campo">Campo</label>
+    <br>
+    <input type="radio" name="trip" id="praia">
+    <label for="praia">Praia</label>
+    <br>
+    <input type="radio" name="trip" id="montanha">
+    <label for="montanha">Montaha</label>
+  </section>
+  <section>
+    <h3>Por que você deveria ser a pessoa desenvolvedora <br> a ganhar o concurso TrybeTrip?</h3>
+    <textarea name="sobre-mim" id="sobre-mim" cols="50" rows="15" placeholder="Defina o motivo pelo qual você deveria ganhar em até 500 caracteres"></textarea>
+  </section>
+  <section id="calendar">
+    <h3>Qual a melhor data realizar sua viagem?</h3>
+    <label for="date">Data:</label>
+    <input type="date" id="date">
+  </section>
+  <section id="termos">
+    <h3>Aceite o termos abaixo:</h3>
+    <input type="checkbox" name="email-list" id="email-list">
+    <label for="email-list">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? </label>
+    <br>
+    <input type="checkbox" name="img-div" id="img-div" required>
+    <label for="img-div">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. </label>
+  </section>
+  <section id="buttons">
+    <button type="submit" id="submit-btn">Enviar</button>
+  </section>
+  </form>
+
+  <script src="script.js"></script>
 </body>
 </html>

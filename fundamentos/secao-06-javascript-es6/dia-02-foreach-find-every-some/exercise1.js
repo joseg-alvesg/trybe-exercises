@@ -80,6 +80,36 @@ const smallerName = () => {
   return nameBook;
 }
 
+const getNamedBook = () => {
+  // escreva seu código aqui
+  const chars26 = books.find((book) => book.name.length === 26).name;
+  return chars26;
+}
+
+const booksOrderedByReleaseYearDesc = () => {
+  // escreva aqui seu código
+  return books.sort((a, b) => b.releaseYear - a.releaseYear);
+}
+
+const everyoneWasBornOnSecXX = () => {
+  return books.every((year) => year.author.birthYear <= 2000 && year.author.birthYear > 1900);
+}
+
+const someBookWasReleaseOnThe80s = () => {
+  return books.some((book) => book.releaseYear >= 1980 && book.releaseYear < 1990);
+}
+
+const authorUnique = () => {
+  return books.every((birth) => 
+    !books.some((birthCheck) => 
+      birthCheck.author.birthYear === birth.author.birthYear && 
+        birth.author.name !== birthCheck.author.name))
+}
 
 // console.log(authorBornIn1947(books))
-console.log(smallerName())
+// console.log(smallerName())
+// console.log(getNamedBook());
+// console.log(booksOrderedByReleaseYearDesc());
+// console.log(everyoneWasBornOnSecXX())
+// console.log(someBookWasReleaseOnThe80s());
+console.log(authorUnique());

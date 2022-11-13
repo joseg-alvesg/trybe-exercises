@@ -1,7 +1,6 @@
 
 img {
-    display: block;
-    size: 300px;
+    width: 400px;
 }
 section {
     border: 2px solid black;

@@ -20,13 +20,16 @@ const fetchCatApi = async () => {
 }
 
 const fetchSurprise = async () => {
-    const urls = await Promise.any([
-        fetch('https://aws.random.cat/meow'),
-        fetch('https://dog.ceo/api/breeds/image/random')
-    ])
-    const response = await urls.json()
-    const data = (response.message || response.file)
-    getImg.src = data
+    // const urls = await Promise.any([
+    //     fetch('https://aws.random.cat/meow'),
+    //     fetch('https://dog.ceo/api/breeds/image/random')
+    // ])
+    // const response = await urls.json()
+    // const data = (response.message || response.file)
+    // getImg.src = data
+    const random = Math.floor(Math.random() * 2)
+    console.log(random);
+    random === 1 ? fetchCatApi() : fetchDogApi()
 }
 
 getDog.addEventListener('click', () => fetchDogApi())

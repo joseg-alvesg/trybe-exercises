@@ -8,7 +8,7 @@ const getImage = document.querySelector('#image')
 
 
 const api = () => {
-    const id = Math.floor(Math.random() * 800)
+    const id = Math.floor(Math.random() * 732)
     const hero = `https://akabab.github.io/superhero-api/api/id/${id}.json`
     fetch(hero)
     .then(promise => promise.json())
@@ -25,4 +25,4 @@ const api = () => {
 
 const obj = api();
 console.log(obj);
-getBtn.addEventListener('click', () => api())
+getBtn.addEventListener('click', api)
